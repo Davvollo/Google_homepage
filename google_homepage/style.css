@@ -8,6 +8,7 @@
 header {
   height: 20%;
   width: 100%;
+  overflow: hidden;
 }
 
 .menu {
@@ -42,16 +43,91 @@ img {
 }
 
 section {
-    clear: both;
     width: 100%;
+    position: relative;
+    top: 80px;
 }
 
 .main {
-  background-color: green;
   width: 50%;
-  margin: 300px auto;
+  margin: 0 auto;
 }
 
 h1 {
+  color: red;
+  font-size: 70px;
+  text-align: center;
+}
 
+h1::first-letter {
+  font-size: 100px;
+  color: blue;
+}
+
+.zolte {
+  color: yellow;
+}
+
+.niebieskie {
+  color: blue;
+}
+
+.zielone {
+  color: green;
+}
+
+.e {
+  display: inline-block;
+  transform: rotate(-30deg);
+}
+
+.panel_wyszukiwania {
+  width: 60%;
+  margin: 0 auto;
+  border: 0.1px solid grey;
+}
+
+.Wyszukiwanie {
+  box-sizing:  border-box;
+  margin: 5px;
+  width: 85%;
+  border: none;
+  border-left: 1px solid grey;
+  position: relative;
+  bottom: 3px;
+}
+
+.panel_wyszukiwania > a > i {
+  position: relative;
+  top: 4px;
+  color: grey;
+}
+
+.przyciski {
+  width: 30%;
+  margin: 15px auto;
+
+}
+
+.przycisk {
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+}
+
+.przycisk:active {
+  box-sizing: border-box;
+  border: 1px solid black;
+  outline: none;
+}
+
+
+p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+p > a {
+  color: blue;
+  text-decoration: underline;
 }
