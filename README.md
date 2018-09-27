@@ -1,2 +1,2 @@
 #Google_homepage
-Pierwszy pini projekt ćwiczebny, skopiowanie strony google
+Pierwszy mini projekt ćwiczebny, skopiowanie strony google
